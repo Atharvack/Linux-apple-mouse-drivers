@@ -1,0 +1,36 @@
+# Compiled kernel modules
+*.ko
+*.o
+*.mod
+*.mod.c
+*.cmd
+*.ko.cmd
+.*.cmd
+.tmp_versions/
+Module.symvers
+modules.order
+
+# Build artifacts
+*.ko.zst
+*.ko.zst.backup
+.module-common.o
+
+# Backup files
+*.backup
+*.bak
+*.orig
+*~
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Original kernel module backups (user-specific)
+*.ko.zst.backup
